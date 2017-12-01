@@ -1,21 +1,26 @@
-body{
-    background-color:grey;
- 
+body {
+    background-color: #1a52c6;
 }
-
 h1{
     text-align: center;
-    color:rgb(19, 1, 1)
-    
+    color:rgb(19, 1, 1);
+    bottom: 500px;
 }
 
 p{
     color:rgb(204, 0, 0);
-    font-size: 35px;
-    
+    position:relative;
+
+
 }
 
 .img{
-    background-position: center; 
+    align-content: center;
+    padding-left: 550px;
+    z-index: -10px;
+ 
+}
 
+.navbar navbar-expand-lg navbar-light bg-light{
+    align-content: center;
 }
